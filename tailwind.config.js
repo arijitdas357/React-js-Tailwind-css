@@ -3,7 +3,8 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend:
-    {colors: 
+    { 
+      colors: 
       {
   
      blue: '#BADFE7',
@@ -23,7 +24,10 @@ module.exports = {
    '21':'0.25rem'  
    },
    top: {
-   '105':'25px' 
+    '0': 0,
+    // ...
+   '64': '14rem',
+   '1/5': '20%',  
    }
   },
 
